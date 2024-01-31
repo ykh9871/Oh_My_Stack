@@ -1,0 +1,59 @@
+.mysidebar {
+  background-color: #ffffff;
+  border: 1px solid #bb44e4;
+  border-radius: 20px;
+  width: 300px;
+  height: 500px;
+  padding: 25px;
+  margin-top: 10px;
+  position: relative;
+  margin-left: 60px;
+  margin-right: 20px;
+}
+
+.likemysidebar {
+  background-color: #ffffff;
+  border: 1px solid #bb44e4;
+  border-radius: 20px;
+  width: 300px;
+  height: 500px;
+  padding: 25px;
+  margin-top: 10px;
+  position: relative;
+}
+
+.menu {
+  cursor: pointer;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  color: #000000; /* 초기 텍스트 색상 설정 */
+}
+
+.menu:hover,
+.menu.active {
+  color: #bb44e4; /* 호버 및 활성화된 메뉴의 색상 설정 */
+}
+
+.submenu {
+  display: flex;
+  flex-direction: column;
+  padding-left: 15px; /* 들여쓰기를 설정합니다. 원하는 크기로 조정해주세요. */
+}
+
+.submenu-item {
+  margin-bottom: 5px;
+}
+
+.submenu a {
+  text-decoration: none;
+  color: #000000; /* submenu 항목의 글자 색상을 검은색으로 설정 */
+}
+
+.submenu a:hover,
+.submenu a.active {
+  color: #bb44e4; /* submenu 항목의 호버 및 활성화된 색상 설정 */
+}
+
+.highlight {
+  color: #bb44e4;
+}

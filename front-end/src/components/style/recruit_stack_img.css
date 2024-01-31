@@ -1,0 +1,38 @@
+.recruit-stack-img {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px;
+  position: relative;
+}
+
+.stack-image {
+  width: 30px;
+  height: 30px;
+  border-radius: 100%;
+  transition: transform 0.2s; /* 부드러운 애니메이션을 위한 트랜지션 추가 */
+}
+
+.stack-image:hover {
+  transform: scale(1.1); /* 마우스 오버 시 크기를 증가시킴 */
+}
+
+.stack-image::after {
+  content: attr(title); /* 제목을 표시 */
+  position: absolute;
+  bottom: 100%; /* 이미지 위에 위치시킴 */
+  left: 50%; /* 가로로 가운데 정렬 */
+  transform: translateX(-50%); /* 가로 위치 조정 */
+  padding: 5px;
+  background-color: rgba(0, 0, 0, 0.8);
+  color: #fff;
+  font-size: 12px;
+  border-radius: 3px;
+  opacity: 0; /* 초기에 숨김 */
+  pointer-events: none; /* 상호 작용 방지 */
+  transition: opacity 0.2s; /* 부드러운 애니메이션을 위한 트랜지션 추가 */
+}
+
+.stack-image:hover::after {
+  opacity: 1; /* 마우스 오버 시 제목을 표시 */
+  transition-delay: 0s; /* 표시 지연 시간 제거 */
+}

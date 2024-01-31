@@ -1,0 +1,92 @@
+.job-card {
+  width: 550px;
+  max-height: 250px;
+  box-sizing: border-box;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.inner-company {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.job-card .card-header {
+  font-size: 18px;
+  font-weight: bold;
+  padding: 10px;
+}
+
+.job-card .card-text {
+  font-size: 14px;
+  margin-bottom: 0;
+}
+
+.job-card .card-text .position {
+  font-size: 15.4px;
+  color: #bb44e4;
+}
+
+.job-card .card-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.apply-button {
+  display: flex;
+  align-items: center;
+}
+
+.apply-text {
+  color: black;
+  font-weight: bold;
+  transition: transform 0.2s;
+  cursor: pointer;
+}
+
+.apply-text.hovered {
+  transform: scale(1.1);
+}
+
+.action-buttons {
+  display: flex;
+  align-items: center;
+}
+
+.heart-icon,
+.share-icon {
+  width: 20px;
+  height: 20px;
+  margin-left: 10px;
+  cursor: pointer;
+  transition: transform 0.3s;
+}
+
+.heart-icon:hover,
+.share-icon:hover {
+  transform: scale(1.2);
+}
+
+.job-card.dia {
+  border: 5px solid #51C9D6;
+}
+
+.job-card.gold {
+  border: 5px solid #FFD700;
+}
+
+.job-card.silver {
+  border: 5px solid #C0C0C0;
+}
+
+.job-card.bronze {
+  border: 5px solid #CD7F32;
+}
+
+.job-card.black {
+  border: 5px solid #000000;
+}
+

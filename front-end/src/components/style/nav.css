@@ -1,0 +1,81 @@
+header {
+    align-items: center;
+}
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #FFFFFF;
+    /* border-bottom: 1px solid black; */
+    box-shadow: 0px 3px 3px rgba(0, 0, 0, 0.25);
+    z-index: 0;
+    /* 네비게이션 바의 z-index 값 */
+}
+
+.logo {
+    max-width: 195px;
+    max-height: 50px;
+}
+
+.navbar .navbar-logo {
+    margin-right: 20px;
+    margin-left: 10px;
+}
+
+
+.navbar .mr-auto,
+.navbar .ml-auto {
+    display: flex;
+    flex-direction: row;
+}
+
+.navbar .ml-auto .my-link2:not(:last-child) {
+    margin-right: 20px; /* 이 값을 조절하여 간격을 변경 */
+}
+
+.navbar .my-link1,
+.navbar .my-link2 {
+    display: flex;
+    flex-direction: row;
+    width: 100px;
+    height: 40px;
+    color: black;
+    font-weight: bold;
+    position: relative;
+    flex-grow: 0;
+
+}
+
+
+.navbar .my-link1:hover,
+.navbar .my-link1:focus,
+.navbar .my-link2:hover,
+.navbar .my-link2:focus {
+    color: #bb44e4;
+}
+
+.navbar .my-link1:active,
+.navbar .my-link1:focus:active,
+.navbar .my-link2:active,
+.navbar .my-link2:focus:active {
+    color: initial;
+}
+
+.navbar-toggler {
+    border-color: #bb44e4 !important;
+}
+
+.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='%23bb44e4' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E") !important;
+}
+
+.w-100 {
+    padding-right: 0px;
+}
+
+/* 
+.responsive-navbar-nav {
+    
+} */

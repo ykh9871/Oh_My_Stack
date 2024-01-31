@@ -1,0 +1,46 @@
+.mystack-box {
+  position: relative;
+  width: auto;
+  height: 36px;
+  display: inline-flex;
+  align-items: center;
+  padding: 0 10px;
+  background: #bb44e4;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  margin: 15px; /* 아이템들 사이의 거리를 15px로 설정 */
+}
+
+.mystack-img {
+  width: 26.35px;
+  height: 26.02px;
+  border-radius: 15px;
+}
+
+.mystack-title {
+  margin-left: 10px;
+  font-family: 'JejuGothic', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 22px;
+  color: #ffffff;
+}
+
+.mystack-container {
+  box-sizing: border-box;
+  width: 100%;
+  max-width: 665px;
+  height: 630px;
+  background: #FFFFFF;
+  border: 1px solid #000000;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 15px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: flex-start; /* 아이템들이 상단부터 시작하도록 설정 */
+  position: relative;
+  z-index: 1;
+}

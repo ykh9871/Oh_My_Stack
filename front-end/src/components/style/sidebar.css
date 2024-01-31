@@ -1,0 +1,42 @@
+.sidebar {
+  box-sizing: border-box;
+  /* Bootstrap 클래스 제거 및 스타일 정의 */
+  position: flex;
+  width: 260px;
+  background: rgba(187, 68, 228, 0.16);
+  border: 1px solid #BB44E4;
+  border-radius: 19px;
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+}
+
+.sidebar-title {
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.sidebar-title::after {
+  content: "";
+  display: block;
+  height: 1px;
+  background-color: rgba(187, 68, 228, 0.5); /* 배경보다 조금 진한 색상 */
+  margin-top: 20px;
+}
+
+.position-checkbox {
+  padding-left: 10px;
+  margin-top: 5px;
+}
+
+.position-checkbox input[type="checkbox"] {
+  margin-right: 5px; /* 체크박스 오른쪽에 5px 마진 추가 */
+}
+
+.position-checkbox label {
+  margin-left: 5px; /* 라벨 왼쪽에 5px 마진 추가 */
+}

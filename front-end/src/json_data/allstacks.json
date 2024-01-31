@@ -1,0 +1,142 @@
+[
+  {
+    "stack_name": "java",
+    "img_src": "https://oh-my-stack.s3.ap-northeast-2.amazonaws.com/stackimages/java.png"
+  },
+  {
+    "stack_name": "javascript",
+    "img_src": "https://oh-my-stack.s3.ap-northeast-2.amazonaws.com/stackimages/javascript.png"
+  },
+  {
+    "stack_name": "jquery",
+    "img_src": "https://oh-my-stack.s3.ap-northeast-2.amazonaws.com/stackimages/jquery.png"
+  },
+  {
+    "stack_name": "postgresql",
+    "img_src": "https://oh-my-stack.s3.ap-northeast-2.amazonaws.com/stackimages/postgresql.png"
+  },
+  {
+    "stack_name": "mysql",
+    "img_src": "https://oh-my-stack.s3.ap-northeast-2.amazonaws.com/stackimages/mysql.png"
+  },
+  {
+    "stack_name": "spring",
+    "img_src": "https://oh-my-stack.s3.ap-northeast-2.amazonaws.com/stackimages/spring.png"
+  },
+  {
+    "stack_name": "linux",
+    "img_src": "https://oh-my-stack.s3.ap-northeast-2.amazonaws.com/stackimages/linux.png"
+  },
+  {
+    "stack_name": "node.js",
+    "img_src": "https://oh-my-stack.s3.ap-northeast-2.amazonaws.com/stackimages/node.js.png"
+  },
+  {
+    "stack_name": "python",
+    "img_src": "https://oh-my-stack.s3.ap-northeast-2.amazonaws.com/stackimages/python.png"
+  },
+  {
+    "stack_name": "c++",
+    "img_src": "https://oh-my-stack.s3.ap-northeast-2.amazonaws.com/stackimages/c%2B%2B.png"
+  },
+  {
+    "stack_name": "go",
+    "img_src": "https://oh-my-stack.s3.ap-northeast-2.amazonaws.com/stackimages/go.png"
+  },
+  {
+    "stack_name": "c#",
+    "img_src": "https://oh-my-stack.s3.ap-northeast-2.amazonaws.com/stackimages/c%23.png"
+  },
+  {
+    "stack_name": "reactnative",
+    "img_src": "https://oh-my-stack.s3.ap-northeast-2.amazonaws.com/stackimages/reactnative.png"
+  },
+  {
+    "stack_name": "typescript",
+    "img_src": "https://oh-my-stack.s3.ap-northeast-2.amazonaws.com/stackimages/typescript.png"
+  },
+  {
+    "stack_name": "nestjs",
+    "img_src": "https://oh-my-stack.s3.ap-northeast-2.amazonaws.com/stackimages/nestjs.png"
+  },
+  {
+    "stack_name": "firebase",
+    "img_src": "https://oh-my-stack.s3.ap-northeast-2.amazonaws.com/stackimages/firebase.png"
+  },
+  {
+    "stack_name": "redis",
+    "img_src": "https://oh-my-stack.s3.ap-northeast-2.amazonaws.com/stackimages/redis.png"
+  },
+  {
+    "stack_name": "springdatajpa",
+    "img_src": "https://oh-my-stack.s3.ap-northeast-2.amazonaws.com/stackimages/nostack.png"
+  },
+  {
+    "stack_name": "javascript",
+    "img_src": "https://oh-my-stack.s3.ap-northeast-2.amazonaws.com/stackimages/javascript.png"
+  },
+  {
+    "stack_name": "jquery",
+    "img_src": "https://oh-my-stack.s3.ap-northeast-2.amazonaws.com/stackimages/jquery.png"
+  },
+  {
+    "stack_name": "postgresql",
+    "img_src": "https://oh-my-stack.s3.ap-northeast-2.amazonaws.com/stackimages/postgresql.png"
+  },
+  {
+    "stack_name": "mysql",
+    "img_src": "https://oh-my-stack.s3.ap-northeast-2.amazonaws.com/stackimages/mysql.png"
+  },
+  {
+    "stack_name": "spring",
+    "img_src": "https://oh-my-stack.s3.ap-northeast-2.amazonaws.com/stackimages/spring.png"
+  },
+  {
+    "stack_name": "linux",
+    "img_src": "https://oh-my-stack.s3.ap-northeast-2.amazonaws.com/stackimages/linux.png"
+  },
+  {
+    "stack_name": "node.js",
+    "img_src": "https://oh-my-stack.s3.ap-northeast-2.amazonaws.com/stackimages/node.js.png"
+  },
+  {
+    "stack_name": "python",
+    "img_src": "https://oh-my-stack.s3.ap-northeast-2.amazonaws.com/stackimages/python.png"
+  },
+  {
+    "stack_name": "c++",
+    "img_src": "https://oh-my-stack.s3.ap-northeast-2.amazonaws.com/stackimages/c%2B%2B.png"
+  },
+  {
+    "stack_name": "go",
+    "img_src": "https://oh-my-stack.s3.ap-northeast-2.amazonaws.com/stackimages/go.png"
+  },
+  {
+    "stack_name": "c#",
+    "img_src": "https://oh-my-stack.s3.ap-northeast-2.amazonaws.com/stackimages/c%23.png"
+  },
+  {
+    "stack_name": "reactnative",
+    "img_src": "https://oh-my-stack.s3.ap-northeast-2.amazonaws.com/stackimages/reactnative.png"
+  },
+  {
+    "stack_name": "typescript",
+    "img_src": "https://oh-my-stack.s3.ap-northeast-2.amazonaws.com/stackimages/typescript.png"
+  },
+  {
+    "stack_name": "nestjs",
+    "img_src": "https://oh-my-stack.s3.ap-northeast-2.amazonaws.com/stackimages/nestjs.png"
+  },
+  {
+    "stack_name": "firebase",
+    "img_src": "https://oh-my-stack.s3.ap-northeast-2.amazonaws.com/stackimages/firebase.png"
+  },
+  {
+    "stack_name": "redis",
+    "img_src": "https://oh-my-stack.s3.ap-northeast-2.amazonaws.com/stackimages/redis.png"
+  },
+  {
+    "stack_name": "springdatajpa",
+    "img_src": "https://oh-my-stack.s3.ap-northeast-2.amazonaws.com/stackimages/nostack.png"
+  }
+]

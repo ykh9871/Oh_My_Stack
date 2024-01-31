@@ -1,0 +1,90 @@
+.stack-container {
+  box-sizing: border-box;
+  width: 100%;
+  max-width: 665px;
+  height: 630px;
+  background: #FFFFFF;
+  border: 1px solid #000000;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative; /* 추가 */
+  z-index: 1; /* 스택 박스의 z-index 값 (네비게이션 바의 값보다 작게 설정) */
+} 
+
+.selected-stack-box {
+  box-sizing: border-box;
+  width: 566.07px;
+  height: 70px;
+  background: rgba(187, 68, 228, 0.16);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 5px;
+  margin-top: 20px;
+  border: 1px solid #B5B5B5;
+  position: relative;
+  z-index: 1;
+  overflow-x: auto; /* 좌우 스크롤바 추가 */
+  white-space: nowrap; /* 이 부분은 한 줄로 표시되도록 하기 위함 */
+  scroll-behavior: smooth;
+  scroll-padding: 10px;
+}
+
+
+.input-box {
+  box-sizing: border-box;
+  width: 566.07px;
+  height: 45px;
+  background: #FFFFFF;
+  border: 1px solid #B5B5B5;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 45px;
+  padding: 10px;
+  margin-top: 20px;
+  border: 1px solid #B5B5B5;
+}
+
+.custom-box {
+  box-sizing: border-box;
+  position: absolute;
+  width: 566.07px;
+  height: 275.87px;
+  background: #f2f2f2;
+  border: 1px solid #B5B5B5;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 15px;
+  position: relative;
+  z-index: 0;
+  padding: 10px;
+  overflow-y: auto; /* 스크롤바 추가 */
+}
+
+
+.next-button {
+  /* 다음 버튼에 대한 스타일 지정 */
+  position: absolute;
+  width: 80px;
+  height: 40  px;
+  margin-top: 10px;
+  right: 50px; /* 왼쪽 여백 설정 */
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.next-button:hover{
+  background-color: #bb44e4;
+  color: white;
+  border: none;
+}
+
+.stack-heading {
+  font-weight: bold;
+}
+
+.selected-stack {
+  display: inline-block;
+  margin-right: 10px;
+  background-color: #f0f0f0;
+  padding: 5px 10px;
+  border-radius: 5px;
+}

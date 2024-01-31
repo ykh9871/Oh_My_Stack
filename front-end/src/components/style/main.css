@@ -1,0 +1,97 @@
+.image-container {
+    background-image: url(../../components/img/main.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 100%; /* 이 부분을 변경했습니다 */
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    position: relative;
+    z-index: 0;
+}
+
+.default-container {
+    background-size: cover;
+    background-position: center;
+    background-color: rgb(253, 253, 253);
+    width: 100%; /* 이 부분을 변경했습니다 */
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 0;
+    overflow:auto;
+    box-sizing: border-box; /* 이 부분을 추가했습니다 */
+}
+
+.mypage-container {
+    background-size: cover;
+    background-position: center;
+    background-color: rgb(253, 253, 253);
+    width: 100%; /* 이 부분을 변경했습니다 */
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    z-index: 0;
+    overflow:auto;
+    box-sizing: border-box; /* 이 부분을 추가했습니다 */
+}
+
+.text-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 10px;
+    align-items: start;
+    justify-items: start;
+    padding: 0 50px;
+    padding-bottom: 250px;
+    padding-left: 100px;
+}
+
+@media screen and (max-width: 1024px) {
+    .text-container {
+        padding: 0 40px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .text-container {
+        padding: 0 30px;
+    }
+}
+
+.text1,
+.text2,
+.text3 {
+    text-align: left;
+    color: #fff;
+}
+
+.text1 {
+    align-self: start;
+}
+
+.text3 {
+    font-size: 1rem;
+}
+
+.signup-link {
+    color: #bb44e4;
+}
+
+.button-container .custom-button {
+    width: 120px;
+    text-align: center;
+    font-size: 18px;
+    border: none;
+    font-weight: bold;
+    color: black;
+    text-decoration: none;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.button-container .custom-button:hover{
+    background-color: #bb44e4;
+    color: white;
+    border: none;
+}

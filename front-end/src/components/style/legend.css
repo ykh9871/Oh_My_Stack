@@ -1,0 +1,59 @@
+/* legend.css */
+
+.legend-container {
+  display: flex;
+  border-color: #bb44e4;
+  border-width: 1px;
+  border-style: solid;
+  padding: 10px;
+  width: 600px;
+  margin-top: 30px;
+  border-radius: 10px; /* Make the corners of the container rounded */
+}
+
+.legend-box {
+  display: flex;
+  flex-direction: row; /* Change direction to row */
+  align-items: center; /* Center items along the cross axis */
+  justify-content: center;
+  height: 30px; /* Adjust the height if needed */
+  padding: 10px;
+  box-sizing: border-box;
+  border-radius: 5px; /* Make the corners of the box rounded */
+}
+
+.legend-text {
+  margin-left: 5px; /* Add some space between the square and the text */
+  text-align: center;
+  font-size: 14px; /* Adjust the font size if needed */
+}
+
+.legend-box-dia {
+  --color: #51C9D6;
+}
+
+.legend-box-gold {
+  --color: #ffd700;
+}
+
+.legend-box-silver {
+  --color: #c0c0c0;
+}
+
+.legend-box-bronze {
+  --color: #CD7F32;
+}
+
+.legend-box-black {
+  --color: #000000;
+}
+
+.legend-box:before {
+  content: "";
+  display: block;
+  width: 40px;
+  height: 20px;
+  border: 2px solid var(--color);
+  margin-right: 5px; /* Add some space to the right of the square */
+  border-radius: 5px; /* Make the corners of the square rounded */
+}

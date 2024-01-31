@@ -1,0 +1,46 @@
+.stack-box {
+  position: relative;
+  width: auto;
+  height: 36px;
+  display: inline-flex;
+  align-items: center;
+  padding: 0 10px;
+  background: #ffffff;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  margin-left: 10px;
+  margin-top: 10px;
+}
+
+.stack-box:hover {
+  background-color: #f0f0f0;
+}
+
+.stack-box.selected {
+  background-color: #bb44e4;
+}
+
+.stack-box.hovered-selected:hover {
+  background-color: #aa33d4;
+}
+
+.stack-img {
+  width: 26.35px;
+  height: 26.02px;
+  border-radius: 15px;
+}
+
+.stack-title {
+  margin-left: 10px;
+  font-family: 'JejuGothic', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 22px;
+  color: #000000;
+}
+
+.stack-title.selected {
+  color: #ffffff;
+}
