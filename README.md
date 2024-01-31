@@ -35,12 +35,9 @@
   - EC2
 
 ## 시스템 아키텍쳐
-
-<img src="https://github.com/jewoodev/employment_manager/assets/105477856/1f805301-aacb-4d04-a868-ce2467ec615b" alt="image" style="zoom:50%;" />
+<img src="https://github.com/ykh9871/Oh_My_Stack/assets/121912366/05bfb767-119b-4067-9de1-9270d8b4f150" alt="image" style="zoom:50%;" />
 
 ## 웹 페이지 미리보기
 
-<img src="https://github.com/jewoodev/employment_manager/assets/105477856/5aa4e99a-4e81-4e5e-b8a0-0bf83172c92f" alt="image" style="zoom:50%;" />
-
-<hr>
+<img src="https://github.com/ykh9871/Oh_My_Stack/assets/121912366/75c1164d-eff0-47bb-8003-5be24c1c8654" alt="image" style="zoom:50%;" />
 
